@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67234CB11AECD0FB00EAC13D /* DetailedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234CB01AECD0FB00EAC13D /* DetailedInfoViewController.swift */; };
+		67234CB31AECD22E00EAC13D /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234CB21AECD22E00EAC13D /* TransitionManager.swift */; };
+		67234CB71AED0FE000EAC13D /* PageItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67234CB61AED0FE000EAC13D /* PageItemController.swift */; };
+		67333E5D1AEC7EBC00CDACED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67333E5C1AEC7EBC00CDACED /* AppDelegate.swift */; };
+		67333E5F1AEC7EBC00CDACED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67333E5E1AEC7EBC00CDACED /* ViewController.swift */; };
+		67333E621AEC7EBC00CDACED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67333E601AEC7EBC00CDACED /* Main.storyboard */; };
+		67333E641AEC7EBC00CDACED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67333E631AEC7EBC00CDACED /* Images.xcassets */; };
+		67333E671AEC7EBC00CDACED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67333E651AEC7EBC00CDACED /* LaunchScreen.xib */; };
+		67333E731AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67333E721AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.swift */; };
+		67333E861AEC908200CDACED /* Corbel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67333E811AEC908200CDACED /* Corbel-Bold.ttf */; };
+		67333E871AEC908200CDACED /* Corbel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67333E811AEC908200CDACED /* Corbel-Bold.ttf */; };
+		67333E8A1AEC908200CDACED /* Corbel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67333E831AEC908200CDACED /* Corbel.ttf */; };
+		67333E8B1AEC908200CDACED /* Corbel.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67333E831AEC908200CDACED /* Corbel.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67333E6D1AEC7EBD00CDACED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67333E4F1AEC7EBC00CDACED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67333E561AEC7EBC00CDACED;
+			remoteInfo = LeaMaroltSonnenschein;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67234CB01AECD0FB00EAC13D /* DetailedInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedInfoViewController.swift; sourceTree = "<group>"; };
+		67234CB21AECD22E00EAC13D /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		67234CB61AED0FE000EAC13D /* PageItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageItemController.swift; sourceTree = "<group>"; };
+		67333E571AEC7EBC00CDACED /* LeaMaroltSonnenschein.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeaMaroltSonnenschein.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67333E5B1AEC7EBC00CDACED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67333E5C1AEC7EBC00CDACED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67333E5E1AEC7EBC00CDACED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67333E611AEC7EBC00CDACED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67333E631AEC7EBC00CDACED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		67333E661AEC7EBC00CDACED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		67333E6C1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeaMaroltSonnenscheinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67333E711AEC7EBD00CDACED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67333E721AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaMaroltSonnenscheinTests.swift; sourceTree = "<group>"; };
+		67333E811AEC908200CDACED /* Corbel-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Corbel-Bold.ttf"; sourceTree = "<group>"; };
+		67333E831AEC908200CDACED /* Corbel.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corbel.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67333E541AEC7EBC00CDACED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67333E691AEC7EBD00CDACED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67234CB91AED985C00EAC13D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				67234CB61AED0FE000EAC13D /* PageItemController.swift */,
+				67234CB01AECD0FB00EAC13D /* DetailedInfoViewController.swift */,
+				67333E5E1AEC7EBC00CDACED /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		67234CBA1AED986800EAC13D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				67234CB21AECD22E00EAC13D /* TransitionManager.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		67234CBB1AED987000EAC13D /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				67333E5C1AEC7EBC00CDACED /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		67333E4E1AEC7EBC00CDACED = {
+			isa = PBXGroup;
+			children = (
+				67333E591AEC7EBC00CDACED /* LeaMaroltSonnenschein */,
+				67333E6F1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests */,
+				67333E581AEC7EBC00CDACED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67333E581AEC7EBC00CDACED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67333E571AEC7EBC00CDACED /* LeaMaroltSonnenschein.app */,
+				67333E6C1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67333E591AEC7EBC00CDACED /* LeaMaroltSonnenschein */ = {
+			isa = PBXGroup;
+			children = (
+				67333E7F1AEC8DE900CDACED /* Resources */,
+				67234CB91AED985C00EAC13D /* View Controllers */,
+				67234CBA1AED986800EAC13D /* Models */,
+				67234CBB1AED987000EAC13D /* App Delegate */,
+				67333E601AEC7EBC00CDACED /* Main.storyboard */,
+				67333E631AEC7EBC00CDACED /* Images.xcassets */,
+				67333E651AEC7EBC00CDACED /* LaunchScreen.xib */,
+				67333E5A1AEC7EBC00CDACED /* Supporting Files */,
+			);
+			path = LeaMaroltSonnenschein;
+			sourceTree = "<group>";
+		};
+		67333E5A1AEC7EBC00CDACED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67333E5B1AEC7EBC00CDACED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67333E6F1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests */ = {
+			isa = PBXGroup;
+			children = (
+				67333E721AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.swift */,
+				67333E701AEC7EBD00CDACED /* Supporting Files */,
+			);
+			path = LeaMaroltSonnenscheinTests;
+			sourceTree = "<group>";
+		};
+		67333E701AEC7EBD00CDACED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67333E711AEC7EBD00CDACED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67333E7F1AEC8DE900CDACED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67333E811AEC908200CDACED /* Corbel-Bold.ttf */,
+				67333E831AEC908200CDACED /* Corbel.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67333E561AEC7EBC00CDACED /* LeaMaroltSonnenschein */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67333E761AEC7EBD00CDACED /* Build configuration list for PBXNativeTarget "LeaMaroltSonnenschein" */;
+			buildPhases = (
+				67333E531AEC7EBC00CDACED /* Sources */,
+				67333E541AEC7EBC00CDACED /* Frameworks */,
+				67333E551AEC7EBC00CDACED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaMaroltSonnenschein;
+			productName = LeaMaroltSonnenschein;
+			productReference = 67333E571AEC7EBC00CDACED /* LeaMaroltSonnenschein.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67333E6B1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67333E791AEC7EBD00CDACED /* Build configuration list for PBXNativeTarget "LeaMaroltSonnenscheinTests" */;
+			buildPhases = (
+				67333E681AEC7EBD00CDACED /* Sources */,
+				67333E691AEC7EBD00CDACED /* Frameworks */,
+				67333E6A1AEC7EBD00CDACED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67333E6E1AEC7EBD00CDACED /* PBXTargetDependency */,
+			);
+			name = LeaMaroltSonnenscheinTests;
+			productName = LeaMaroltSonnenscheinTests;
+			productReference = 67333E6C1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67333E4F1AEC7EBC00CDACED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Hellosunschein;
+				TargetAttributes = {
+					67333E561AEC7EBC00CDACED = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					67333E6B1AEC7EBD00CDACED = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 67333E561AEC7EBC00CDACED;
+					};
+				};
+			};
+			buildConfigurationList = 67333E521AEC7EBC00CDACED /* Build configuration list for PBXProject "LeaMaroltSonnenschein" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67333E4E1AEC7EBC00CDACED;
+			productRefGroup = 67333E581AEC7EBC00CDACED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67333E561AEC7EBC00CDACED /* LeaMaroltSonnenschein */,
+				67333E6B1AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67333E551AEC7EBC00CDACED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67333E621AEC7EBC00CDACED /* Main.storyboard in Resources */,
+				67333E861AEC908200CDACED /* Corbel-Bold.ttf in Resources */,
+				67333E671AEC7EBC00CDACED /* LaunchScreen.xib in Resources */,
+				67333E8A1AEC908200CDACED /* Corbel.ttf in Resources */,
+				67333E641AEC7EBC00CDACED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67333E6A1AEC7EBD00CDACED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67333E871AEC908200CDACED /* Corbel-Bold.ttf in Resources */,
+				67333E8B1AEC908200CDACED /* Corbel.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67333E531AEC7EBC00CDACED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67333E5F1AEC7EBC00CDACED /* ViewController.swift in Sources */,
+				67333E5D1AEC7EBC00CDACED /* AppDelegate.swift in Sources */,
+				67234CB71AED0FE000EAC13D /* PageItemController.swift in Sources */,
+				67234CB31AECD22E00EAC13D /* TransitionManager.swift in Sources */,
+				67234CB11AECD0FB00EAC13D /* DetailedInfoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67333E681AEC7EBD00CDACED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67333E731AEC7EBD00CDACED /* LeaMaroltSonnenscheinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67333E6E1AEC7EBD00CDACED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67333E561AEC7EBC00CDACED /* LeaMaroltSonnenschein */;
+			targetProxy = 67333E6D1AEC7EBD00CDACED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67333E601AEC7EBC00CDACED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67333E611AEC7EBC00CDACED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67333E651AEC7EBC00CDACED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67333E661AEC7EBC00CDACED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67333E741AEC7EBD00CDACED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67333E751AEC7EBD00CDACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67333E771AEC7EBD00CDACED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeaMaroltSonnenschein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67333E781AEC7EBD00CDACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeaMaroltSonnenschein/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		67333E7A1AEC7EBD00CDACED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeaMaroltSonnenscheinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaMaroltSonnenschein.app/LeaMaroltSonnenschein";
+			};
+			name = Debug;
+		};
+		67333E7B1AEC7EBD00CDACED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LeaMaroltSonnenscheinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeaMaroltSonnenschein.app/LeaMaroltSonnenschein";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67333E521AEC7EBC00CDACED /* Build configuration list for PBXProject "LeaMaroltSonnenschein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67333E741AEC7EBD00CDACED /* Debug */,
+				67333E751AEC7EBD00CDACED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67333E761AEC7EBD00CDACED /* Build configuration list for PBXNativeTarget "LeaMaroltSonnenschein" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67333E771AEC7EBD00CDACED /* Debug */,
+				67333E781AEC7EBD00CDACED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67333E791AEC7EBD00CDACED /* Build configuration list for PBXNativeTarget "LeaMaroltSonnenscheinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67333E7A1AEC7EBD00CDACED /* Debug */,
+				67333E7B1AEC7EBD00CDACED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67333E4F1AEC7EBC00CDACED /* Project object */;
+}
