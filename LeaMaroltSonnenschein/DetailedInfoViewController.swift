@@ -33,7 +33,7 @@ class DetailedInfoViewController: UIViewController, UIPageViewControllerDataSour
     
     // Initialize it right away here
     private let contentImages = [["personal1",
-        "personal2", "personal3"], ["dev1", "dev2", "dev3", "dev4", "dev5", "dev6", "dev7", "dev8", "dev9", "dev10"], ["des1", "des2", "des3", "des4", "des7", "des5", "des6"], ["ex1", "ex2", "ex3", "ex4", "ex5", "exLast"]];
+        "personal2", "personal3"], ["dev1", "dev2", "dev3", "dev4", "dev5", "dev6", "dev7", "dev8", "dev9", "dev10"], ["des2", "des3", "des4", "des7", "des5", "des6"], ["ex1", "ex2", "ex3", "ex4", "ex5", "exLast"]];
 
     override func viewDidLoad() {
         super.viewDidLoad()
